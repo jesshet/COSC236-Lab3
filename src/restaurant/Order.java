@@ -8,7 +8,7 @@ public class Order {
     
     public void addItem(MenuItem item) {
         items.add(item);
-        System.out.println("Item " + item + " added");
+        System.out.println("Item " + item.getName() + " added");
     }
     
     public double calculateTotal() {
