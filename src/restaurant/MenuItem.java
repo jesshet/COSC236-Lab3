@@ -6,7 +6,7 @@ public class MenuItem {
 
     public MenuItem(String name, double price) {
         this.name = name;
-        priceInDollars = price; //no longer need 'this.' to distinguish here - Jesse Hett
+        priceInDollars = price; //no longer need 'this.' to distinguish here, as the parameter has a different name than the attribute - Jesse Hett
     }
 
     public String getName() {
