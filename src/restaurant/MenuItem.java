@@ -2,11 +2,11 @@ package restaurant;
 // MenuItem class
 public class MenuItem {
     private String name;
-    private double priceInDollars; 
+    private double priceInDollars; //Updated the name of the attribute - Jesse Hett
 
     public MenuItem(String name, double price) {
         this.name = name;
-        priceInDollars = price; 
+        priceInDollars = price; //no longer need 'this.' to distinguish here - Jesse Hett
     }
 
     public String getName() {
@@ -14,6 +14,6 @@ public class MenuItem {
     }
 
     public double getPrice() {
-        return priceInDollars; 
+        return priceInDollars; //getter returns updated attribute name - Jesse Hett
     }
 }
